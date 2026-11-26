@@ -17,7 +17,7 @@ You get two versions:
 | **Internal** | Appraisals, self-reviews, 1:1s | Achievements by epic and theme, real ticket counts, ticket keys your manager can check |
 | **Public** | Resume, portfolio, LinkedIn | The same work with client names, codenames, ticket keys and security details removed |
 
-See [examples/sample-output.md](examples/sample-output.md) for a full example.
+See [examples/sample-output.md](https://github.com/Nagaha/jira-brag/blob/main/examples/sample-output.md) for a full example.
 
 ## Why
 
@@ -64,13 +64,13 @@ Then connect Jira, open Claude Code and run `/jira-brag`. You can also just ask:
 1. **Finds your tickets** with JQL: tickets assigned to you at any point in the
    period, or moved through the workflow by you, so work handed over to QA
    still counts. It falls back to a simpler query on sites that don't support
-   history searches. ([reference/jql.md](skills/jira-brag/reference/jql.md))
+   history searches. ([reference/jql.md](https://github.com/Nagaha/jira-brag/blob/main/skills/jira-brag/reference/jql.md))
 2. **Groups** them by epic, component and subject, and sorts them into
    features, fixes, production support and engineering work.
 3. **Reads the important ones in full** (high-priority bugs, incidents, main
    stories) so the write-up says what was actually done.
 4. **Writes** both versions from the templates in
-   [reference/output.md](skills/jira-brag/reference/output.md).
+   [reference/output.md](https://github.com/Nagaha/jira-brag/blob/main/skills/jira-brag/reference/output.md).
 
 ## Privacy and safety
 
