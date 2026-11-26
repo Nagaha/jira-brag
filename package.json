@@ -1,6 +1,6 @@
 {
   "name": "jira-brag",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Claude skill: turn the Jira tickets you worked on into a brag doc for appraisals and resume-ready highlights.",
   "bin": {
     "jira-brag": "bin/install.js"
